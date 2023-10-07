@@ -1,0 +1,29 @@
+{
+  "name": "hello-react",
+  "version": "1.0.0",
+  "description": "Learn react basics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abnave/hello-react.git"
+  },
+  "author": "Shubham Abnave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abnave/hello-react/issues"
+  },
+  "homepage": "https://github.com/abnave/hello-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
